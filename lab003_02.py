@@ -16,9 +16,3 @@ print(name_info_final)
 
 
 # Привіт, Андрій ШЕВЧЕНКО, а ти знав, що твоє імя складється з 6 літер"
-# city = 'Kyiv'
-# country = 'Ukraine'
-# continent = 'Europe'
-# template = '{city} -  {country} {continent}'
-# kyiv_info = template.format(city=city, country=country, continent=continent)
-# print(kyiv_info)
