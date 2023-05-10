@@ -6,9 +6,9 @@ string = input("Enter a string: ")
 
 only_upper = ""
 
-for char in string:
+for letter in string:
 
-    if char.isupper():
-        only_upper += char
+    if letter.isupper():
+        only_upper += letter
 
 print(only_upper)
