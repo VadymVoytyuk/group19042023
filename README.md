@@ -3,3 +3,4 @@
 Ctrl+Alt+l - formatting
 Ctrl - D -duplicate
 Ctrl - / - comment
+pip install requests
