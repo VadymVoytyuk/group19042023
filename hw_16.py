@@ -1,8 +1,5 @@
-
-
-
-def infinite():
-    num = [
+def infinite_month():
+    month = [
         'January',
         'February',
         'March',
@@ -17,19 +14,19 @@ def infinite():
         'December'
     ]
     while True:
-        yield num[0]
-        yield num[1]
-        yield num[2]
-        yield num[3]
-        yield num[4]
-        yield num[5]
-        yield num[6]
-        yield num[7]
-        yield num[8]
-        yield num[9]
-        yield num[10]
-        yield num[11]
+        yield month[0]
+        yield month[1]
+        yield month[2]
+        yield month[3]
+        yield month[4]
+        yield month[5]
+        yield month[6]
+        yield month[7]
+        yield month[8]
+        yield month[9]
+        yield month[10]
+        yield month[11]
 
 
-for x in infinite():
-    print(x)
+for month in infinite_month():
+    print(month)
