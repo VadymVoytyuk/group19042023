@@ -14,19 +14,22 @@ def infinite_month():
         'December'
     ]
     while True:
-        yield month[0]
-        yield month[1]
-        yield month[2]
-        yield month[3]
-        yield month[4]
-        yield month[5]
-        yield month[6]
-        yield month[7]
-        yield month[8]
-        yield month[9]
-        yield month[10]
-        yield month[11]
+        for elements in month:
+            yield elements
 
 
-for month in infinite_month():
-    print(month)
+generator = infinite_month()
+print(next(generator))
+print(next(generator))
+print(next(generator))
+print(next(generator))
+print(next(generator))
+print(next(generator))
+print(next(generator))
+print(next(generator))
+print(next(generator))
+print(next(generator))
+print(next(generator))
+print(next(generator))
+print(next(generator))
+
